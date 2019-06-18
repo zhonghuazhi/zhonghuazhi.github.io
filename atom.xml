@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhonghuazhi.github.io</id>
     <title>Color Code</title>
-    <updated>2019-06-18T00:17:52.460Z</updated>
+    <updated>2019-06-18T00:25:59.552Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhonghuazhi.github.io"/>
     <link rel="self" href="https://zhonghuazhi.github.io/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>https://zhonghuazhi.github.io/images/avatar.png</logo>
     <icon>https://zhonghuazhi.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Color Code</rights>
+    <entry>
+        <title type="html"><![CDATA[Java 环境变量设置]]></title>
+        <id>https://zhonghuazhi.github.io/post/java-huan-jing-bian-liang-she-zhi</id>
+        <link href="https://zhonghuazhi.github.io/post/java-huan-jing-bian-liang-she-zhi">
+        </link>
+        <updated>2019-06-18T00:18:36.000Z</updated>
+        <content type="html"><![CDATA[<p>Mac 系统下设置 Java 环境变量</p>
+<ol>
+<li>打开终端</li>
+<li>输入 <code>cd ~</code> 进入用户家目录</li>
+<li>输入 <code>vim .bash_profile</code> 打开配置文件</li>
+<li>输入 <code>export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar export PATH=$JAVA_HOME/bin:$PATH:</code></li>
+<li>退出存盘</li>
+<li>输入 <code>source .bash_profile</code> 更新环境变量</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://zhonghuazhi.github.io/post/hello-gridea</id>

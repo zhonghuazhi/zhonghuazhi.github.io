@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhonghuazhi.github.io</id>
     <title>Color Code</title>
-    <updated>2019-06-27T10:56:55.240Z</updated>
+    <updated>2019-06-27T11:04:54.247Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhonghuazhi.github.io"/>
     <link rel="self" href="https://zhonghuazhi.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://zhonghuazhi.github.io/images/avatar.png</logo>
     <icon>https://zhonghuazhi.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Color Code</rights>
+    <entry>
+        <title type="html"><![CDATA[ElasticSearch 监控工具 Cerebro 安装部署]]></title>
+        <id>https://zhonghuazhi.github.io/post/elasticsearch-jian-kong-gong-ju-cerebro-an-zhuang-bu-shu</id>
+        <link href="https://zhonghuazhi.github.io/post/elasticsearch-jian-kong-gong-ju-cerebro-an-zhuang-bu-shu">
+        </link>
+        <updated>2019-06-27T10:59:50.000Z</updated>
+        <content type="html"><![CDATA[<p>今天记录下 ElasticSearch 监控工具 Cerebro部署。</p>
+<ul>
+<li>
+<p>下载安装包<a href="https://github.com/lmenezes/cerebro/releases">Cerebro GitHub</a></p>
+</li>
+<li>
+<p>解压缩</p>
+</li>
+</ul>
+<pre><code>tar -xvf cerebro-0.8.3.tar
+</code></pre>
+<ul>
+<li>启动Cerebro服务</li>
+</ul>
+<pre><code>cd cerebro-0.8.3/bin
+./cerebro
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ELK-ElasticSearch安装部署]]></title>
         <id>https://zhonghuazhi.github.io/post/elk-elasticsearch-an-zhuang-bu-shu</id>

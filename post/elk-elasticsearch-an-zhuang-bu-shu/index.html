@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://zhonghuazhi.github.io/favicon.ico?v=1561632071201">
+<link rel="shortcut icon" href="https://zhonghuazhi.github.io/favicon.ico?v=1561632261022">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://zhonghuazhi.github.io/styles/main.css">
 
@@ -30,7 +30,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://zhonghuazhi.github.io">
-        <img src="https://zhonghuazhi.github.io/images/avatar.png?v=1561632071201" class="site-logo">
+        <img src="https://zhonghuazhi.github.io/images/avatar.png?v=1561632261022" class="site-logo">
         <h1 class="site-title">Color Code</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -96,10 +96,22 @@
             <div class="post-content">
               <p>今天记录下 ElasticSearch 安装部署。</p>
 <ul>
-<li>下载安装包
-<a href="https://www.elastic.co/cn/products/elasticsearch">官方网站-下载ElasticSearch</a></li>
-<li>地方</li>
+<li>
+<p>下载安装包
+<a href="https://www.elastic.co/cn/products/elasticsearch">官方网站-下载ElasticSearch</a></p>
+</li>
+<li>
+<p>解压缩</p>
+</li>
 </ul>
+<pre><code>tar -xzvf elasticsearch-7.1.1-darwin-x86_64.tar.gz
+</code></pre>
+<ul>
+<li>启动ElasticSearch服务</li>
+</ul>
+<pre><code>cd elasticsearch-7.1.1/bin
+./elasticsearch
+</code></pre>
 
             </div>
             
